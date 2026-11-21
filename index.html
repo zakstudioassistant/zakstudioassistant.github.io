@@ -131,8 +131,6 @@ body { background: #06070c; }
     font-weight: 500;
     line-height: 1.4;
     letter-spacing: -0.01em;
-    text-decoration: underline wavy #ff7a1a 1.5px;
-    text-underline-offset: 6px;
 }
 
 .zs-subline {
@@ -631,7 +629,11 @@ body {
 <header class="zs-hero">
 <img class="zs-logo" src="https://zakstudioassistant.github.io/logo.png" alt="Zak Studio logo">
 <p class="zs-studioname">Zak Studio</p>
-<p class="zs-tagline">Elevate Your Project with Premium Voice and Sound</p>
+<p class="zs-tagline" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;">Elevate Your Project with Premium Voice and Sound</p>
+<svg class="zs-tagline-arc" viewBox="0 0 640 74" role="img" aria-label="Elevate Your Project with Premium Voice and Sound" style="display:block;margin:14px auto 0;max-width:min(560px,94%);width:100%;height:auto;">
+<defs><path id="zs-arc" d="M 16 62 Q 320 6 624 62" fill="none"/></defs>
+<text fill="#ffffff" font-size="22" font-weight="500" letter-spacing="0" style="font-family:inherit;"><textPath href="#zs-arc" startOffset="50%" text-anchor="middle">Elevate Your Project with Premium Voice and Sound</textPath></text>
+</svg>
 <p class="zs-subline">Faster, simpler and less of a headache.</p>
 </header>
 <section class="zs-about" aria-label="About and contact">
