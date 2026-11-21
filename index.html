@@ -297,8 +297,7 @@ body { background: #06070c; }
     transition: background 0.15s ease, border-color 0.15s ease;
 }
 
-.zs-tab em { font-style: normal; }
-.zs-tab:not(.is-active) em { color: #ffffff; }
+.zs-tab em { font-style: normal; color: #ff7a1a; }
 
 .zs-tab-en { font-weight: 600; font-size: 16px; }
 
@@ -647,7 +646,7 @@ body {
 </section>
 
 <div class="zs-tabs" role="tablist" aria-label="Works by language">
-<button type="button" role="tab" id="zs-tab-ar" class="zs-tab" aria-selected="false" onclick="zsTab('ar')"><span class="zs-tab-en">Arabic Projects</span><span class="zs-tab-mid">33 projects</span><span class="zs-tab-ar" dir="rtl">مشاريع بالعربي</span></button>
+<button type="button" role="tab" id="zs-tab-ar" class="zs-tab" aria-selected="false" onclick="zsTab('ar')"><span class="zs-tab-en"><em>Arabic</em> Projects</span><span class="zs-tab-mid">33 projects</span><span class="zs-tab-ar" dir="rtl">مشاريع بالعربي</span></button>
 <button type="button" role="tab" id="zs-tab-en" class="zs-tab is-active" aria-selected="true" onclick="zsTab('en')"><span class="zs-tab-en"><em>English</em> Projects</span><span class="zs-tab-mid">14 projects</span><span class="zs-tab-ar" dir="rtl">مشاريع بالإنجليزي</span></button>
 </div>
 <section id="zs-panel-ar" aria-label="Arabic Projects" hidden>
